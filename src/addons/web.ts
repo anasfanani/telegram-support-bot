@@ -59,7 +59,7 @@ const init = function(bot: TelegramAddon) {
         },
     );
 
-    server.listen(8080, () => console.log(`Server started on port ${port}`));
+    server.listen(port, () => console.log(`Server started on port ${port}`));
   }
 };
 
